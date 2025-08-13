@@ -59,7 +59,7 @@ CREATE TABLE public.chatbot_settings (
   created_at timestamp with time zone NOT NULL DEFAULT now(),
   welcome_message text NOT NULL DEFAULT 'Hello there! 👋 How can I assist you today? Feel free to ask anything!'::text,
   input_placeholder text NOT NULL DEFAULT 'Ask me anything'::text,
-  powered_by jsonb NOT NULL DEFAULT '{"url": "https://webagent.ai/", "name": "WebAgent.ai"}'::jsonb,
+  powered_by jsonb NOT NULL DEFAULT '{"url": "https://teleperson.com/", "name": "Teleperson"}'::jsonb,
   logo_url text DEFAULT ''::text,
   accent_color text DEFAULT '#653aff'::text,
   text_color text DEFAULT '#ffffff'::text,
