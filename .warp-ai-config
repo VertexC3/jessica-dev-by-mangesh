@@ -1,0 +1,24 @@
+# Warp AI Configuration for Jessica Dev by Mangesh
+# Quick reference file for AI assistant
+
+PROJECT_NAME="Jessica Dev by Mangesh"
+RULES_FILE=".ai-rules.md"
+PROGRESS_FILE="PROJECT-PROGRESS.md"
+
+# CRITICAL RULES (Quick Reference)
+# 1. NEVER modify code files without explicit approval
+# 2. ALWAYS ask permission before making source code changes
+# 3. Only update documentation files (.md) for tracking
+# 4. Follow the detailed rules in .ai-rules.md
+
+# Protected file patterns:
+# *.js, *.jsx, *.ts, *.tsx, *.json, *.css, *.scss, *.sql, *.env*
+# /app/*, /components/*, /lib/*, /utils/*, package.json, next.config.js
+
+# Safe to modify:
+# *.md files (documentation)
+# .ai-rules.md, PROJECT-PROGRESS.md
+
+LAST_UPDATED="2025-01-13"
+CHATBOT_ID="fb0b48ba-9449-4e83-bc51-43e2651e3e16"
+SUPABASE_PROJECT="fphbxbricinstdwqvafw"
